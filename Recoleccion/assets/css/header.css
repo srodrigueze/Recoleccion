@@ -1,0 +1,25 @@
+header {
+    float:left;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 0 20px 0;
+    background-image: url("../img/header-img.jpg");
+    font-weight: bold;
+}
+
+#logo {
+    width:100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+
+header h1{
+    color:var(--primary-color);
+    font-size: 50px;
+    margin: 0;
+    padding: 30px auto;
+    text-shadow:  2px 2px 5px var(--primary-color-dark);
+    font-weight: lighter;
+}
